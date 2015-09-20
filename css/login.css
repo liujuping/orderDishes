@@ -1,0 +1,60 @@
+* {
+    padding:0;
+    margin: 0;
+}
+html,body {
+    height: 100%;
+}
+body {
+    background: url("../images/登陆界面.jpg") no-repeat center;
+}
+.bg_main {
+    position: relative;
+    height: 100%;
+    background: url(../images/login_bg.png) no-repeat center;
+    background-size: contain;
+}
+.login_wrap {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    height: 30%;
+    width: 30%;
+}
+.login_main {
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px 16px;
+    left: -50%;
+    height: 100%;
+    width: 100%;
+    background: url("../images/bag_2.png") no-repeat center;
+}
+.btn {
+    height: 30%;
+    font-size: 30px;
+    line-height: 150%;
+    font-weight: 600;
+    color: #0068fc;
+}
+input {
+    display: block;
+    float: right;
+    width: 70%;
+    height: 80%;
+    font-size: 16px;
+}
+.button {
+    width: 30%;
+    height: 100%;
+    font-family: "微软雅黑", "Microsoft Yahei";
+    float: left;
+    margin-left: 13.33333333333333333%;
+    border: none;
+    margin-top: 20px;
+    background: url("../images/btn2.png") no-repeat center;
+    background-size: contain;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+}
